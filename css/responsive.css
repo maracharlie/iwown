@@ -1,0 +1,331 @@
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      #header-wrapper {
+          margin-top: 120px;
+      }
+      #top-bar-mobile .logo {
+          line-height: 52px;
+      }
+      #top-bar-mobile .contacts p.phone {
+          font-size: 16px;
+          line-height: 52px;
+          margin-bottom: 0;
+      }
+      #top-bar-mobile .orange-btn {
+          margin-top: 10px;
+      }
+      nav#slide-menu {
+        position: fixed;
+        top: 52px;
+        right: -780px;
+      }
+      #header-wrapper .main-image img {
+          width: 100%;
+      }
+      #header-wrapper h2 {
+          font-size: 27px;
+          line-height: 27px;
+          text-align: center;
+          margin-bottom: 15px;
+      }
+      #header-wrapper h1 {
+          font-size: 40px;
+          line-height: 40px;
+          margin-bottom: 15px;
+          text-align: center;
+      }
+      #header-wrapper .slogan, #header-wrapper .price-wrapper {
+          text-align: center;
+      }
+      #header-wrapper .order-btn-wrapper {
+          text-align: center;
+      }
+      .countdown-wrapper-text p {
+            font-size: 36px;
+            line-height: 36px;
+            text-align: center;
+        }
+      .countdown-wrapper-text {
+            float: right;
+            border-right: solid 1px #dbdbdb;
+            padding: 20px 100px 20px 0;
+        }
+      #section-01 {
+            background: url(../img/section-01.jpg) no-repeat center center;
+        }
+      #section-01 .text-content {
+          text-align: center;
+        }
+      #section-01 h4:after {
+          margin: 20px auto;
+      }
+      .text-content.left-side {
+          position: relative;
+          float: left;
+          width: 100%;
+      }
+      .text-content.right-side {
+          position: relative;
+          float: left;
+          width: 100%;
+      }
+      #section-02 .left-side .char-item .title,
+      #section-02 .right-side .char-item .title,
+      #section-02 .left-side .char-item .text,
+      #section-02 .right-side .char-item .text {
+          padding: 0;
+          text-align: center;
+      }
+      #section-02 .illustration {
+          padding: 20px 0;
+      }
+      #section-02 .text-content.second-line {
+            margin-top: 0px;
+        }
+      .char-item {
+          min-height: 200px;
+      }
+      .char-item.small-text {
+          min-height: 130px;
+      }
+      .char-item.middle-text {
+          min-height: 160px;
+      }
+      .info-wrapper {
+          height: 500px;
+          padding: 30px 0;
+          background-size: cover;
+      }
+      .info-wrapper .content-wrapper {
+          padding: 0;
+      }
+      .info-01,
+      .info-02,
+      .info-03,
+      .info-04,
+      .info-05,
+      .info-06,
+      .info-07,
+      .info-08 {
+          height: 500px;
+      }
+      .info-04 {
+          background: url(../img/info-04.jpg) no-repeat right center;
+      }
+      .info-06 {
+          background: url(../img/info-06.jpg) no-repeat right center;
+      }
+      .info-08 {
+          background: url(../img/info-08.jpg) no-repeat left center;
+      }
+
+      #section-07 {
+          background: #000;
+      }
+      #section-07 .warranty-item {
+          padding: 0;
+      }
+      #section-07 .warranty-item .icon {
+          width: 100%;
+          text-align: center;
+      }
+      #section-07 .warranty-item .title {
+            font-size: 20px;
+          text-align: center;
+      }
+      #section-07 .warranty-item .text {
+          text-align: center;
+      }
+      #section-08 .owl-carousel .owl-nav {
+            display: none;
+        }
+      
+       #attention-block .countdown-wrapper:after {
+          width: 100%;
+          bottom: -78px;
+      }
+      .buy-wrapper .buy-block,
+      .buy-wrapper .buy-illustration {
+          width: 100%;
+      }
+      .buy-wrapper .buy-block {
+          text-align: center;
+          padding: 0;
+          margin-bottom: 30px;
+      }
+      .buy-wrapper .buy-illustration img {
+          position: relative;
+      }
+}
+
+@media only screen 
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      #top-bar-mobile .logo {
+          line-height: 52px;
+      }
+      #top-bar-mobile .contacts p.phone {
+          font-size: 14px;
+          line-height: 52px;
+          margin-bottom: 0;
+      }
+      nav#slide-menu {
+        position: fixed;
+        top: 52px;
+        right: -780px;
+      }
+      #header-wrapper {
+          margin-top: 120px;
+      }
+      #header-wrapper .main-image img {
+          width: 100%;
+      }
+      #header-wrapper h2 {
+          font-size: 27px;
+          line-height: 27px;
+          text-align: center;
+          margin-bottom: 15px;
+      }
+      #header-wrapper h1 {
+          font-size: 40px;
+          line-height: 40px;
+          margin-bottom: 15px;
+          text-align: center;
+      }
+      #header-wrapper .slogan, #header-wrapper .price-wrapper {
+          text-align: center;
+      }
+      #header-wrapper .order-btn-wrapper {
+          text-align: center;
+      }
+      .countdown-wrapper-timer p:first-child {
+            color: #949495;
+            text-align: center;
+            margin-left: 0px;
+        }
+      .countdown-wrapper-text p {
+            font-size: 36px;
+            line-height: 36px;
+            text-align: center;
+        }
+      .countdown-wrapper-text {
+            float: none;
+            border-right: 0;
+            padding: 0;
+        }
+      .timer_wrap {
+            position: relative;
+            width: 240px;
+            margin: 0 auto;
+        }
+      .clock>div.min {
+          width: 60px;
+      }
+
+      #section-01 {
+            background: url(../img/section-01.jpg) no-repeat right center;
+        }
+      #section-01 .text-content {
+          text-align: center;
+        }
+      #section-01 h4:after {
+          margin: 20px auto;
+      }
+      .text-content.left-side {
+          position: relative;
+          float: left;
+          width: 100%;
+      }
+      .text-content.right-side {
+          position: relative;
+          float: left;
+          width: 100%;
+      }
+      #section-02 .left-side .char-item .title,
+      #section-02 .right-side .char-item .title,
+      #section-02 .left-side .char-item .text,
+      #section-02 .right-side .char-item .text {
+          padding: 0;
+          text-align: center;
+      }
+      #section-02 .illustration {
+          padding: 20px 0;
+      }
+      #section-02 .text-content.second-line {
+            margin-top: 0px;
+        }
+      .info-wrapper {
+          height: auto;
+          padding: 30px 0;
+      }
+      .info-wrapper .content-wrapper {
+          padding: 0;
+      }
+      .info-01.mobile-version,
+      .info-02.mobile-version {
+          max-height: 200px;
+          background-size: cover;
+      }
+      .info-02.mobile-version {
+          margin-bottom: 20px;
+      }
+      #section-07 {
+          background: #000;
+      }
+      #section-07 .warranty-item {
+          padding: 0;
+      }
+      #section-07 .warranty-item .icon {
+          width: 100%;
+          text-align: center;
+      }
+      #section-07 .warranty-item .title {
+            font-size: 20px;
+          text-align: center;
+      }
+      #section-07 .warranty-item .text {
+          text-align: center;
+      }
+      #section-08 .owl-carousel .owl-nav {
+            display: none;
+        }
+      
+      #thanks-block .icon {
+          width: 100%;
+          padding-top: 0;
+          padding-bottom: 20px;
+      }
+      #thanks-block .text-wrapper {
+          width: 100%;
+          text-align: center;
+      }
+      #attention-block {
+          margin-bottom: 70px;
+      }
+      #attention-block .attention-title {
+          text-align: center;
+      }
+      #attention-block .countdown-wrapper:after {
+          width: 100%;
+          bottom: -86px;
+      }
+      .buy-wrapper .buy-block,
+      .buy-wrapper .buy-illustration {
+          width: 100%;
+      }
+      .buy-wrapper .buy-block {
+          text-align: center;
+          padding: 0;
+          margin-bottom: 30px;
+      }
+      .buy-wrapper .buy-illustration img {
+          position: relative;
+      }
+      
+      #thanks-block {
+          margin: 20px 0; 
+      }
+}
