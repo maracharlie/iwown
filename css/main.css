@@ -21,7 +21,7 @@ h2 {
     line-height: 36px;
     font-weight: 300;
     text-transform: uppercase;
-    color: #15c19b;
+    color: #26bbe2;
 }
 h3 {
     font-size: 36px;
@@ -56,14 +56,14 @@ section {
 }
 .white-bg h3,
 .black-bg h3 {
-    color: #4acbae;
+    color: #26bbe2;
 }
 .black-bg {
     background-color: #000;
     color: #fff;
 }
 .black-bg h4 {
-    color: #4acbae;
+    color: #26bbe2;
 }
 .black-bg p {
     color: #999999;
@@ -99,6 +99,11 @@ section {
     font-size: 24px;
     line-height: 24px;
 }
+
+.nav ul li a {
+    color: #333;
+    font-size: 16px;
+    padding: 6px;}
 
 #top-bar {
     width: 100%;
@@ -205,6 +210,8 @@ nav#slide-menu ul li a:active {
     transition: all 300ms;
 }
 #header-wrapper {
+    background: url(../img/bg_header.jpg) no-repeat center center;
+    background-size: contain;
     margin-top: 125px;
 }
 #header-wrapper h1,
@@ -218,7 +225,7 @@ nav#slide-menu ul li a:active {
     margin-bottom: 35px;
 }
 #header-wrapper .price-wrapper .new-price {
-    color: #15c19b;
+    color: #26bbe2;
     font-size: 52px;
     line-height: 52px;
     position: relative;
@@ -239,19 +246,25 @@ nav#slide-menu ul li a:active {
 #header-wrapper .order-btn-wrapper {
     text-align: left;
 }
+
+#header-wrapper .txt-block{
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    box-shadow: 0 0 8px #d2d2d2;
+}
 header {
     width: 100%;
     position: relative;
     float: left;
     padding: 0 0 50px 0;
-    background: rgba(221,223,229,1);
+    /*background: rgba(221,223,229,1);
 background: -moz-linear-gradient(top, rgba(221,223,229,1) 0%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(221,223,229,1)), color-stop(51%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
 background: -webkit-linear-gradient(top, rgba(221,223,229,1) 0%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%);
 background: -o-linear-gradient(top, rgba(221,223,229,1) 0%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%);
 background: -ms-linear-gradient(top, rgba(221,223,229,1) 0%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%);
 background: linear-gradient(to bottom, rgba(221,223,229,1) 0%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddfe5', endColorstr='#ffffff', GradientType=0 );
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddfe5', endColorstr='#ffffff', GradientType=0 );*/
 }
 header .main-image {
     width: 100%;
@@ -290,14 +303,18 @@ header .main-image {
 }
 
 #section-01 {
-    background: url(../img/section-01.jpg) no-repeat center center;
+    background: url(../img/bg-block1.jpg) no-repeat center center;
+    background-size:cover;
     padding: 100px 0;
 }
 #section-01 h4 {
     font-size: 24px;
     line-height: 30px;
-    color: #4acbae;
+    color: #26bbe2;
 }
+
+#section-01 i {color: #26bbe2;}
+
 #section-01 h4:after {
     content: "";
     display: block;
@@ -430,9 +447,10 @@ header .main-image {
 
 #section-03 {
     text-align: center;
-    background: url(../img/section-03.jpg) no-repeat bottom center;
-    height: 620px;
-    padding-top: 100px;
+    background: url(../img/bg-block5.jpg) no-repeat bottom center;
+    background-size: cover;
+    height: 720px;
+    padding-top: 50px;
     overflow: hidden;
 }
 #section-03 h4:after {
@@ -444,7 +462,7 @@ header .main-image {
     margin: 20px auto;
 }
 .light {
-    background: url(../img/sh-02-c.png) no-repeat center center;
+  /*  background: url(../img/sh-02-c.png) no-repeat center center;
     width: 1001px;
     height: 250px;
     position: absolute;
@@ -454,7 +472,7 @@ header .main-image {
     animation: light 1s linear infinite;
     -o-animation: light 1s linear infinite;
     -moz-animation: light 1s linear infinite;
-    -webkit-animation: light 1s linear infinite;
+    -webkit-animation: light 1s linear infinite;*/
 }
 @keyframes light {
 	0% {opacity:.6;filter:alpha(opacity=60)\9;filter:alpha(opacity=60);}
@@ -489,7 +507,7 @@ header .main-image {
 .info-wrapper .content-wrapper h4 {
     font-size: 27px;
     line-height: 27px;
-    color: #4acbae;
+    color: #26bbe2;
     margin: 0;
 }
 .info-wrapper .content-wrapper h4:after {
@@ -549,8 +567,14 @@ header .main-image {
 #section-05 {
     background: url(../img/video-bg.jpg) no-repeat center center;
     height: 590px;
+    background-size: cover;
 }
-
+#app-block {
+  background: url(../img/bg-app-section.png) no-repeat center center;
+  background-size: contain;
+  padding-top: 70px;
+  height:1000px;
+}
 #app-block p {
     text-align: center;
 }
@@ -561,7 +585,7 @@ header .main-image {
     text-align: center;
 }
 .app-item h4 {
-    color: #4acbae;
+    color: #26bbe2;
 }
 .app-item img {
     width: 100%;
@@ -613,7 +637,7 @@ header .main-image {
 #section-07 .warranty-item .title {
     font-size: 27px;
     line-height: 50px;
-    color: #15c19b;
+    color: #26bbe2;
     margin-bottom: 15px;
 }
 
@@ -692,7 +716,7 @@ footer p.copyright {
     -o-border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    
+
 }
 .countdown-wrapper p {
     font-size: 24px;
