@@ -178,13 +178,16 @@
         right: -780px;
       }
       #header-wrapper {
-        margin-top: 0px;
-        background: url(../img/bg_video_mob.jpg) no-repeat center center;
+        margin-top: 50px;
+        background:none;
         height: 800px;
         background-size: contain;
       }
+      #header-wrapper .container{
+        padding: 0;
+      }
       #header-wrapper .txt-block {
-        margin-top: 750px;
+        margin-top: 20px;
         box-shadow: none;
       }
       #header-wrapper .main-image img {
