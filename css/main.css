@@ -102,8 +102,8 @@ section {
 
 .nav ul li a {
     color: #333;
-    font-size: 16px;
-    padding: 6px;}
+    font-size: 15px;
+    padding: 0px;}
 
 #top-bar {
     width: 100%;
@@ -212,7 +212,7 @@ nav#slide-menu ul li a:active {
 #header-wrapper {
     background: url(../img/video-bg.jpg) no-repeat center center;
     background-size: cover;
-    margin-top: 125px;
+    /*margin-top: 125px;*/
     height: 900px;
 }
 #header-wrapper h1,
